@@ -126,7 +126,7 @@ describe("Queue SpecialNaming", () => {
     assert.ok(error);
     assert.ok(
       error.message.includes(
-        "The specifed resource name contains invalid characters."
+        "The specified resource name contains invalid characters."
       )
     );
 
@@ -148,7 +148,7 @@ describe("Queue SpecialNaming", () => {
     assert.ok(error);
     assert.ok(
       error.message.includes(
-        "The specifed resource name contains invalid characters."
+        "The specified resource name contains invalid characters."
       )
     );
 
@@ -163,7 +163,7 @@ describe("Queue SpecialNaming", () => {
     assert.ok(error);
     assert.ok(
       error.message.includes(
-        "The specifed resource name contains invalid characters."
+        "The specified resource name contains invalid characters."
       )
     );
 
@@ -183,7 +183,7 @@ describe("Queue SpecialNaming", () => {
     assert.ok(error);
     assert.ok(
       error.message.includes(
-        "The specifed resource name contains invalid characters."
+        "The specified resource name contains invalid characters."
       )
     );
   });

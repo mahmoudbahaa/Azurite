@@ -285,7 +285,7 @@ export default class StorageErrorFactory {
     return new StorageError(
       400,
       "",
-      `The specifed resource name contains invalid characters.`,
+      `The specified resource name contains invalid characters.`,
       context.contextID || defaultID,
       undefined,
       context
